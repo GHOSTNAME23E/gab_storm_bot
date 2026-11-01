@@ -14,11 +14,11 @@ log = logging.getLogger("gab-storm-bot")
 
 TOKEN = os.getenv("DISCORD_TOKEN", "").strip()
 CONFIG_PATH = os.getenv("PRODUCTS_CONFIG", "products.json")
-OWNER_IDS = {int(x.strip()) for x in os.getenv("OWNER_IDS", "").split(",") if x.strip().isdigit()}
-LOG_CHANNEL_ID = int(os.getenv("LOG_CHANNEL_ID", "0") or 0)
-RESET_LOG_CHANNEL_ID = int(os.getenv("RESET_LOG_CHANNEL_ID", "0") or 0)
-CLIENT_RESET_CHANNEL_ID = int(os.getenv("CLIENT_RESET_CHANNEL_ID", "0") or 0)
-CLIENT_RESET_ROLE_ID = int(os.getenv("CLIENT_RESET_ROLE_ID", "0") or 0)
+OWNER_IDS = {int(x.strip()) for x in os.getenv("1205345667271102477", "").split(",") if x.strip().isdigit()}
+LOG_CHANNEL_ID = int(os.getenv("1566512212523229425", "0") or 0)
+RESET_LOG_CHANNEL_ID = int(os.getenv("1566512212523229425", "0") or 0)
+CLIENT_RESET_CHANNEL_ID = int(os.getenv("1566512592158195732", "0") or 0)
+CLIENT_RESET_ROLE_ID = int(os.getenv("1563611112690159690", "0") or 0)
 
 def load_config() -> dict[str, Any]:
     with open(CONFIG_PATH, "r", encoding="utf-8") as f:
