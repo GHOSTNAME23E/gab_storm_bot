@@ -1,0 +1,19 @@
+{
+  "brand_name": "Gab Storm",
+  "embed_color": "0x5865F2",
+  "logo_url": "",
+  "products": [
+    {
+      "name": "Produto Digital 1",
+      "seller_key_env": "KEYAUTH_PRODUCT_1",
+      "mask": "***-***-***",
+      "level": 1
+    },
+    {
+      "name": "Produto Digital 2",
+      "seller_key_env": "KEYAUTH_PRODUCT_2",
+      "mask": "***-***-***",
+      "level": 1
+    }
+  ]
+}

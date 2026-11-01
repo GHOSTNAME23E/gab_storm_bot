@@ -1,0 +1,23 @@
+services:
+  - type: worker
+    name: gab-storm-discord-bot
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python bot.py
+    envVars:
+      - key: DISCORD_TOKEN
+        sync: false
+      - key: OWNER_IDS
+        sync: false
+      - key: LOG_CHANNEL_ID
+        sync: false
+      - key: RESET_LOG_CHANNEL_ID
+        sync: false
+      - key: CLIENT_RESET_CHANNEL_ID
+        sync: false
+      - key: CLIENT_RESET_ROLE_ID
+        sync: false
+      - key: KEYAUTH_PRODUCT_1
+        sync: false
+      - key: KEYAUTH_PRODUCT_2
+        sync: false
