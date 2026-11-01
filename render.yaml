@@ -8,15 +8,15 @@ services:
       - key: DISCORD_TOKEN
         sync: false
       - key: OWNER_IDS
-        sync: false
+        value: "1205345667271102477"
       - key: LOG_CHANNEL_ID
-        sync: false
+        value: "1566512212523229425"
       - key: RESET_LOG_CHANNEL_ID
-        sync: false
+        value: "1566512212523229425"
       - key: CLIENT_RESET_CHANNEL_ID
-        sync: false
+        value: "1566512592158195732"
       - key: CLIENT_RESET_ROLE_ID
-        sync: false
+        value: "1563611112690159690"
       - key: KEYAUTH_PRODUCT_1
         sync: false
       - key: KEYAUTH_PRODUCT_2
